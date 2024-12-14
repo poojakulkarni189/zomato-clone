@@ -1,0 +1,15 @@
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-right a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
