@@ -7,7 +7,7 @@
     margin-right: 10px;
 }
 .city-main{
-    border:0.5px solid #000000;
+    border:0.2px solid rgba(123, 123, 128, 0.5);
     border-radius: 7px;
     width: 28%;
     display: flex;
@@ -28,6 +28,6 @@
 
 
 .city-main:hover{
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 24, 0.5)  ;
+    box-shadow: 0px 0px 10px 1px rgba(82, 82, 82, 0.5);
     cursor: pointer;
 }

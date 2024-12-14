@@ -1,22 +1,22 @@
-export const cities =[
+export const cities = [
     {
-        "city": "Hyderabad",
-        "numOfPlaces": "87"
+        city: "Hyderabad",
+        numOfPlaces: "87"
     },
     {
-        "city": "Hyderaabd",
-        "numOfPlaces": "87"
+        city: "Bangalore",
+        numOfPlaces: "45"
     },
     {
-        "city": "Hyderabad",
-        "numOfPlaces": "87"
+        city: "Mumbai",
+        numOfPlaces: "120"
     },
     {
-        "city": "Hyderabad",
-        "numOfPlaces": "87"
+        city: "Chennai",
+        numOfPlaces: "55"
     },
     {
-        "city": "Hyderabad",
-        "numOfPlaces": "87"
+        city: "Delhi",
+        numOfPlaces: "200"
     }
-]
+];
