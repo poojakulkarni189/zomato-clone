@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.nav-bg{
+    text-align: center;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+}
+
+.zomato-text {
+    width: 20%;
+}
+
+.zomato-lower-text{
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.next-line{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
