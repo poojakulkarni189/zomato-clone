@@ -1,0 +1,238 @@
+html, body {
+    overflow-x: hidden;
+  }
+.NavBar{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.zomato{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;  /* Ensure the image covers the div */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.name-zomato{
+    width: 20%;
+}
+.zomato-line{
+    color: aliceblue;
+    font-size: 36px;
+    width: 200;
+    position: relative;
+}
+.place{
+    font-size: 20px;
+}
+.SearchContainer{
+    width: 54%;
+    height: 70px;
+    position: relative;
+    padding-left: 290px;
+}
+.SearchLocation{
+    width: 100%;
+    height: 45px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.SearchLocation div {
+    float: left;
+}
+.Location{
+    width: 28%;
+    display: flex;
+    text-align: center;
+    height: 45px;
+}
+.location-total{ 
+    color: #FF7E8B;
+    font-size: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+::placeholder {
+    color: rgb(111, 108, 108);
+    opacity: 1px;
+    font-size: 4px;
+    font-style: normal;
+}
+.input-field {
+    padding-left: 6px;
+    border:0;
+    outline:0;
+    background-color: transparent;
+    font-size: 18px;
+}
+.icon-dropdown{
+    color: rgb(95, 93, 93);
+    font-size: 1px;
+}
+.Search-dish{
+    width: 60%;
+    height: 45px;
+    padding-top: 5px;
+    float: left;
+}
+.Search-dish div{
+    border-left: rgb(218, 214, 214) solid;
+    border-radius: 1px;
+}
+.icon-search{
+    color: rgb(145, 143, 143);
+    font-size: 1px;
+    padding-left: 10px;
+}
+.input-search-food{
+    padding-left: 6px;
+    border:0;
+    outline:0;
+    background-color: transparent;
+    font-size: 18px;
+}
+.collections-and-places{
+    margin-top: 110px;
+    height: 1000px;
+    padding-left:100px;
+    padding-right: 90px;
+}
+.outline{
+    height: 200px;
+}
+.outline a{
+    float: left;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+    padding-left: 25px;
+    height: 230px;
+}
+.outline a:hover{
+    transform: scale(1.1);
+}
+.outline img{
+    height: 220px;
+    width: 310px;
+    border-radius: 10px;
+}
+.outline h1{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    color: #363636;
+    font: Helvetica, sans-serif;
+}
+.outline p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 17px;
+    margin-top: 0px;
+    color: #4F4F4F;
+    font: Helvetica, sans-serif;
+}
+.too-anchor{
+    position: relative;
+}
+.too-heading{
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    height: 70px;
+    width: 310px;
+}
+.dining-anchor{
+    position: relative;
+}
+.dining-heading{
+    position: absolute;
+    top: 150px;
+    background-color: aliceblue;
+    height: 70px;
+    width: 310px;
+}
+.Liveevents-anchor{
+    position: relative;
+}
+.Liveevents-heading{
+    position: absolute;
+    top: 150px;
+    background-color: aliceblue;
+    height: 70px;
+    width: 310px;
+}
+.collection-main-outline{
+    padding-left: 25px;
+}
+.collections{
+    position: relative;
+    margin-top: 50px;
+    text-align: left;
+    font: Helvetica, sans-serif;
+    padding-bottom: 25px;
+}
+.collections p{
+    font-size: 40px;
+    color: #1C1C1C;
+    margin-bottom: 0px;
+}
+.collections p1{
+    font-size: 18px;
+    color: #363636;
+    padding-left: 3px;
+}
+.collections a{
+    text-decoration: none;
+    color: #e03546;
+    font-size: 18px;
+    padding-left: 9%;
+}
+.collections i{
+    text-decoration: none;
+    color: #e03546;
+    font-size: 10px;
+    padding-left: 1%;
+}
+.collection-img-outline img{
+    height: 300px;
+    width: 240px;
+    float: left;
+    padding: 3.5px;
+    border-radius: 10px;
+}
+.collection-img-outline a{
+    text-decoration: none;
+    font: Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 5px;
+}
+.tts{
+    position: relative;
+}
+.tts-header{
+    position: absolute;
+    padding-left: 7px;
+    padding-top: 100px;
+}
+.nop{
+    position: relative;
+}
+.nop-header{
+    position: absolute;
+}
+.RF{
+    position: relative;
+}
+.RF-header{
+    position: absolute;
+}
+.BBIT{
+    position: relative;
+}
+.BBIT-header{
+    position: absolute;
+    left: 80%;
+}
+
