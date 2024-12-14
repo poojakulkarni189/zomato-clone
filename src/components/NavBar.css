@@ -208,31 +208,30 @@ html, body {
     color: #FFFFFF;
     font-size: 5px;
 }
-.tts{
+.collection-img-outline {
     position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
-.tts-header{
-    position: absolute;
-    padding-left: 7px;
-    padding-top: 100px;
-}
-.nop{
+
+.tts, .nop, .RF, .BBIT {
     position: relative;
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
 }
-.nop-header{
+
+.tts-header, .nop-header, .RF-header, .BBIT-header {
     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
 }
-.RF{
-    position: relative;
-}
-.RF-header{
-    position: absolute;
-}
-.BBIT{
-    position: relative;
-}
-.BBIT-header{
-    position: absolute;
-    left: 80%;
-}
+
 
