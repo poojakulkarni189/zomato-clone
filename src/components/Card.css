@@ -45,9 +45,13 @@
 } */
 
 .too-anchor{
-    border-radius: 7px;
-    border:0.2px solid rgba(123, 123, 128, 0.5);
     position: relative;
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 33.3333%;
+    padding: 0px 13.3333px 20px 0px;
 }
 .too-anchor a{
     text-decoration: none;
@@ -70,13 +74,67 @@
     font: Helvetica, sans-serif;
 }
 .too-heading{
-    padding-left: 10px;
+    padding: 1rem 2rem 1.6rem;
+    width: 100%;
     position: absolute;
-    top: 80%;
-    background-color: white;
-    width:100%;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0px 0px 1.2rem 1.2rem;
+    box-sizing: border-box;
 }
 
 .too-anchor h1,p{
     margin: 5px;
+}
+
+.too-image{
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.too-image img{
+    height: 80%;
+}
+
+.too-image-div{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(248, 248, 248) 0%, rgb(255, 255, 255) 10%, rgb(248, 248, 248) 40%, rgb(248, 248, 248) 100%) no-repeat rgb(248, 248, 248);
+    opacity: 0;
+    transition: opacity 0.25s ease-out;
+    will-change: opacity;
+    border-radius: inherit;
+    animation: 1.5s linear 0s infinite normal forwards running jCOzbu;
+}
+
+.title{
+    text-align: left;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.2rem;
+}
+
+.subtitle{
+    color: rgb(79, 79, 79);
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.too-a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    transition: transform 300ms;
+}
+
+div, p, span{
+    font-size: 1.6rem;
 }
