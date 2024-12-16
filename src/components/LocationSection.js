@@ -5,10 +5,10 @@ import "./LocationSection.css"
 export const LocationSection = () =>{
 
     return (
-        <diV className="city-map">
+        <div className="city-map">
             {cities.map((city) => (
-                <Location /> 
+                <Location city={city}/> 
             ))}
-        </diV>
+        </div>
     )
 }

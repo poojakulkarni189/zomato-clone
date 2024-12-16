@@ -1,11 +1,11 @@
 import "./Location.css";
 
-const Location = () =>{
+const Location = ({city}) =>{
     return(
         <div className="city-main"> 
             <div className="city">
-                <p>Hyderabad</p>
-                <p>83 places</p>
+                <p>{city.city}</p>
+                <p>{city.numOfPlaces}</p>
             </div>
             <div className="city-icon">
                 <i class="fa fa-angle-right"></i>
