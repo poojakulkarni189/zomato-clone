@@ -1,72 +1,43 @@
 import NavBarLeft from "./NavBarLeft"
 import NavBarRight from "./NavBarRight"
 import "./NavBar.css"
-import { LocationSection } from "./LocationSection"
+import { LocationSection } from "./LocationSection";
+
+import { CardSection } from "./CardSection";
 
 function NavBar() {
+    
     return (
-        <div className="zomato">
-            <div className="NavBar">
-                <NavBarLeft />
-                <NavBarRight />
-            </div>
-            <img className="name-zomato" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="zomato name"></img>
-            <h1 className="zomato-line">Discover the best food & drinks in
-                <span className="place"> Hyderabad</span> </h1>
-            <div className="SearchContainer">
-                <div className="SearchLocation">
-                    <div className="Location">
-                        <div className="location-total">
-                            <i class='icon-location fas fa-map-marker-alt'></i>
-                            <input placeholder="Hyderabad, India" type="text" size="11" className="input-field"></input>
-                            <i class='icon-dropdown fas fa-caret-down' onClick="my function()"></i>
+        <div className="mainPage">
+            <div className="zomato">
+                <div className="NavBar">
+                    <NavBarLeft />
+                    <NavBarRight />
+                </div>
+                <img className="name-zomato" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="zomato name"></img>
+                <h1 className="zomato-line">Discover the best food & drinks in
+                    <span className="place"> Hyderabad</span> </h1>
+                <div className="SearchContainer">
+                    <div className="SearchLocation">
+                        <div className="Location">
+                            <div className="location-total">
+                                <i class='icon-location fas fa-map-marker-alt'></i>
+                                <input placeholder="Hyderabad, India" type="text" size="11" className="input-field"></input>
+                                <i class='icon-dropdown fas fa-caret-down' onClick="my function()"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div className="Search-dish">
-                        <div className="Search-icon">
-                            <i class="icon-search fas fa-search" aria-hidden="true"></i>
+                        <div className="Search-dish">
+                            <div className="Search-icon">
+                                <i class="icon-search fas fa-search" aria-hidden="true"></i>
+                            </div>
+                            <input placeholder="Search for restaurant, cuisine or a dish" size="37" className="input-search-food"></input>
                         </div>
-                        <input placeholder="Search for restaurant, cuisine or a dish" size="37" className="input-search-food"></input>
                     </div>
                 </div>
             </div>
             <div className="collections-and-places">
-                <div className="outline">
-                    <div className="too-anchor">
-                        <a href="https://www.zomato.com/hyderabad/order-food-online?delivery_subzone=9212">
-                            <div className="too-image">
-                                <img alt="order online" src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"></img>
-                            </div>
-                            <div className="too-heading">
-                                <h1>Order Online</h1>
-                                <p>Stay home and order to your doorstep</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="dining-anchor">
-                        <a href="https://www.zomato.com/hyderabad/dine-out">
-                            <div className="dining-image">
-                                <img alt="dinning" src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"></img>
-                            </div>
-                            <div className="dining-heading">
-                                <h1>Dining</h1>
-                                <p>View the city's favourite dining venues</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="Liveevents-anchor">
-                        <a href="https://www.zomato.com/live/city/hyderabad/events">
-                            <div className="Liveevents-image">
-                                <img alt="Live-events" src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&fit=around|402:360&crop=402:360;*,*"></img>
-                            </div>
-                            <div className="Liveevents-heading">
-                                <h1>Live Events</h1>
-                                <p>Discover India’s best events & concerts</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div className="collection-main-outline">
+            <CardSection />
+                {/* <div className="collection-main-outline">
                     <div className="collections">
                         <p>Collections</p>
                         <p1>Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends</p1>
@@ -126,11 +97,11 @@ function NavBar() {
                             </a>
                         </div>
                     </div>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <h3>Popular localities in and around Hyderabad</h3>
                     <LocationSection />
-                </div>
+                </div> */}
             </div>
         </div>
     )
